@@ -2,24 +2,26 @@ name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:        # Allows manual run
+    - cron: "0 0 * * *"   # runs daily at midnight
+  workflow_dispatch:       # lets you run manually
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       - name: Generate Pacman contribution graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: zyex1   # 👈 put your GitHub username here
 
       - name: Push graph to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: profile-3d-contrib
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "update contribution graph"
+          git push
