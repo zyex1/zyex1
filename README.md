@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  <img src="./♦.jpg" width="500" alt="gaming setup" style="border-radius:12px;" />
+  <img src="./♦.jpg" width="320" alt="gaming setup" style="border-radius:12px;" />
 </p>
 
 <div align="center">
