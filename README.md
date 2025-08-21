@@ -68,9 +68,9 @@
 
 <!-- Pacman Contribution Graph -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zyex1/zyex1/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zyex1/zyex1/output/pacman-contribution-graph.svg">
-  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/zyex1/zyex1/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zyex1/zyex1/main/assets/profile-night-rainbow-animate.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zyex1/zyex1/main/assets/profile-green-animate.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/zyex1/zyex1/main/assets/profile-green-animate.svg">
 </picture>
 
 ###
