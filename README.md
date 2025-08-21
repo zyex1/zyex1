@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  <img src="https://media.tenor.com/3bTxZ4HdrysAAAAd/pixel-art-gaming.gif" width="400" alt="gaming gif" />
+  <img src="./♦.jpg" width="500" alt="gaming setup" style="border-radius:12px;" />
 </p>
 
 <div align="center">
